@@ -20,8 +20,8 @@ stages:
         timeoutInMinutes: 60
         steps:
 
-          - task: UseNode@1
-            displayName: 'Install Node.js'
+          - task: UseNode@0
+            displayName: 'Use Node.js 22'
             inputs:
               versionSpec: $(NODE_VERSION)
 
